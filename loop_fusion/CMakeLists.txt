@@ -15,8 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
     roslib
     )
 
-find_package(OpenCV REQUIRED)
-#include(/home/dji/opencv/build/OpenCVConfig.cmake)
+find_package(OpenCV 4.5.2 EXACT REQUIRED PATHS /home/cicada3301/build )#include(/home/dji/opencv/build/OpenCVConfig.cmake)
 
 
 find_package(Ceres REQUIRED)

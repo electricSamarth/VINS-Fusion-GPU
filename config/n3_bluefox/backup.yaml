@@ -46,7 +46,7 @@ body_T_cam1: !!opencv-matrix
 multiple_thread: 1
 #Gpu accleration support
 use_gpu: 1
-use_gpu_acc_flow: 0
+use_gpu_acc_flow: 1
 
 #feature traker paprameters
 max_cnt: 200            # max feature number in feature tracking

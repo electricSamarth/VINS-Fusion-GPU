@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
     camera_models
     image_transport)
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.5.2 EXACT REQUIRED PATHS /home/cicada3301/build )
 #include(/home/dji/opencv/build/OpenCVConfig.cmake)
 #message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
 
